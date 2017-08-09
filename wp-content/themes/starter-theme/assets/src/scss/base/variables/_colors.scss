@@ -1,0 +1,31 @@
+/*
+ * Colors
+ *
+ * Variable names should describe what they contain.
+ * Use '$color-' + a color description in the variable name
+ * eg $color-blue instead of $color-primary.
+ * These are just a few examples to get you going. Change as needed
+ *
+ * Create additional variables for "meaningful" / semantic color labels
+ * and use the variables with color-specific names as the values.
+ */
+$color-blue:            #002B5C;
+$color-blue-light:      adjust-color(#0083D4, $lightness: -3%);
+$color-orange:          adjust-color(#F58025, $lightness: -16.1%);
+$color-orange-fg:       adjust-color(#F58025, $lightness: -6%);
+$color-orange-light:    #FED298;
+$color-orange-dark:     #CE4E00;
+$color-white:           #FFF;
+$color-black:           #000;
+
+// Purpose Colors
+$base-font-color:       $color-blue;
+$action-color:          $color-orange-fg;
+$base-background-color: $color-white;
+
+$base-border-color:     $color-orange-light;
+$base-border:           1px solid $base-border-color;
+$base-border-radius:    0;
+
+$form-box-shadow:       inset 0 1px 3px rgba($color-blue, 0.25);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

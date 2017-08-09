@@ -1,0 +1,23 @@
+{
+  "name": "Commence-Theme",
+  "description": "This file installs necessary tools for automating dev work on the Commence WP theme",
+  "main": "",
+  "authors": [
+    "James Steinbach <jdsteinbach@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jdsteinbach/commence-theme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "susy": "^2.2.12",
+    "js-cookie": "^2.1.4"
+  }
+}
