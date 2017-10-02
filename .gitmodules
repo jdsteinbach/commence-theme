@@ -1,0 +1,3 @@
+[submodule "assets/src/scss"]
+	path = assets/src/scss
+	url = git@github.com:jdsteinbach/boilerplate-sass.git
