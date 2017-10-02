@@ -1,0 +1,50 @@
+{
+  "name": "9hf",
+  "version": "1.0.0",
+  "description": "Static test site for local dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Steinbach",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.4",
+    "babel-core": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.3",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "repository": "https://github.com/jdsteinbach/gulp-server",
+  "bugs": {
+    "url": "https://github.com/jdsteinbach/gulp-server/issues"
+  },
+  "homepage": "https://github.com/jdsteinbach/gulp-server",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-open": "^2.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "OperaMini 8",
+    "Samsung 4",
+    "UCAndroid 11",
+    ">1%"
+  ]
+}
