@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/starter-theme/assets/src/scss/base"]
+	path = wp-content/themes/starter-theme/assets/src/scss/base
+	url = git@github.com:jdsteinbach/base-sass.git
